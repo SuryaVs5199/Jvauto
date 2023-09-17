@@ -55,3 +55,21 @@
   border-radius: 50%;
 }
 
+.floating_btns {
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:center;
+	z-index: 1000;
+  }
+  
+  @keyframes pulsing {
+	to {
+	  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+	}
+  }
